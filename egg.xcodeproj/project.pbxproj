@@ -14,6 +14,8 @@
 		CE59C29C1AAAD2EE0076FECD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE59C29B1AAAD2EE0076FECD /* Images.xcassets */; };
 		CE59C29F1AAAD2EE0076FECD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE59C29D1AAAD2EE0076FECD /* LaunchScreen.xib */; };
 		CE59C2AB1AAAD2EE0076FECD /* eggTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE59C2AA1AAAD2EE0076FECD /* eggTests.m */; };
+		CE59C2B51AAAD38C0076FECD /* egg1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE59C2B41AAAD38C0076FECD /* egg1.png */; };
+		CE59C2B91AABE1850076FECD /* hiyoko.png in Resources */ = {isa = PBXBuildFile; fileRef = CE59C2B81AABE1850076FECD /* hiyoko.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		CE59C2A41AAAD2EE0076FECD /* eggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eggTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE59C2A91AAAD2EE0076FECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE59C2AA1AAAD2EE0076FECD /* eggTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eggTests.m; sourceTree = "<group>"; };
+		CE59C2B41AAAD38C0076FECD /* egg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = egg1.png; sourceTree = "<group>"; };
+		CE59C2B81AABE1850076FECD /* hiyoko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hiyoko.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		CE59C28D1AAAD2EE0076FECD /* egg */ = {
 			isa = PBXGroup;
 			children = (
+				CE59C2B81AABE1850076FECD /* hiyoko.png */,
+				CE59C2B41AAAD38C0076FECD /* egg1.png */,
 				CE59C2921AAAD2EE0076FECD /* AppDelegate.h */,
 				CE59C2931AAAD2EE0076FECD /* AppDelegate.m */,
 				CE59C2951AAAD2EE0076FECD /* ViewController.h */,
@@ -200,8 +206,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE59C29A1AAAD2EE0076FECD /* Main.storyboard in Resources */,
+				CE59C2B91AABE1850076FECD /* hiyoko.png in Resources */,
 				CE59C29F1AAAD2EE0076FECD /* LaunchScreen.xib in Resources */,
 				CE59C29C1AAAD2EE0076FECD /* Images.xcassets in Resources */,
+				CE59C2B51AAAD38C0076FECD /* egg1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +422,7 @@
 				CE59C2B01AAAD2EE0076FECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE59C2B11AAAD2EE0076FECD /* Build configuration list for PBXNativeTarget "eggTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				CE59C2B31AAAD2EE0076FECD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
